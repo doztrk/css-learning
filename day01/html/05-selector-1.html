@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selector-1</title>
+    <link rel="stylesheet" href="../css/05-style.css" />
+    <style>
+      * {
+        color: crimson;
+        background-color: powderblue;
+      }
+      h1.title {
+        color: green;
+      }
+      div.divEl {
+        color: burlywood;
+      }
+      .title {
+        color: blue !important; /* !important diğer herşeyi override eder. */
+        background-color: yellow;
+      }
+      .divEl {
+        color: seagreen;
+      }
+      #myLink {
+        color: whitesmoke;
+      }
+      p.paragraph {
+        color: rgb(255, 255, 0);
+      }
+    </style>
+    <link rel="stylesheet" href="../css/05-style.css">
+  </head>
+
+  <body>
+    <h1 class="title">Selector-1</h1>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi.</div>
+    <a href="a" id="myLink">Click me</a>
+    <ul>
+      <li>Lorem, ipsum.</li>
+      <li>Fugit, non.</li>
+      <li>Libero, nihil?</li>
+      <li>Saepe, cupiditate.</li>
+      <li>Laudantium, provident?</li>
+    </ul>
+
+    <div class="divEl" style="color: blueviolet">
+      Lorem ipsum dolor sit amet, consectetur adipisicing.
+    </div>
+    <p class="paragraph">Lorem ipsum dolor sit amet.</p>
+  </body>
+</html>
