@@ -1,0 +1,29 @@
+h1.title{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+body,html{
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+}
+div.kutu-1{
+    width: 50%; /* Parent'a göre kendini ayarlar */
+    background-color: violet;
+}
+div.kutu-2{
+    background-color: chartreuse;
+    width: 40vw; /* view port width parent'a değil, ekrana göre kendini ayarlar. */
+    height: 36vh; /* view port height parent'a değil, ekrana göre kendini ayarlar. */
+}
+div.kutu-3{
+    font-size: 2em; /* Parent'ın 2 katı */
+}
+div.kutu-4{
+    font-size: 3em; /* Parent'ın 3 katı */
+}
+div.kutu-5{
+    font-size: 3rem; /* Root Element'e bağlı olarak değişir.1Pixel = 16 Rem.Html dosyasındaki  */
+    background-color: purple;
+}
