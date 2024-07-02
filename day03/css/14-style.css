@@ -60,3 +60,12 @@ main.main-menu section.iphone14 p{
     color: rgb(91, 89, 89);
     font-weight: 500;
 }
+main.main-menu section.watch h2 {
+    font-size: 1.8rem; /* Adjust this value to the desired font size */
+}
+
+main.main-menu section.watch h2 img {
+    width: 16px; /* Adjust this value to the desired image width */
+    height: 16px; /* Adjust this value to the desired image height */
+    vertical-align: middle; /* Ensures the text and image align properly */
+}
