@@ -1,0 +1,24 @@
+div.box-1{
+    background-color: violet;
+    padding: 10px;
+    text-align: right;
+}
+span.spanEl{
+    color: floralwhite;
+    background-color: aqua;
+}
+/* Örnk */
+div.box-2{
+    background-color: springgreen;
+    height: 100px;
+    margin-top: 20px;
+}
+
+p.pEl{
+    background-color: blue;
+    width: 200px;
+/*     margin-right: auto;
+    margin-left: auto; */
+
+    margin: auto;
+}
