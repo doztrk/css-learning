@@ -58,14 +58,21 @@ main.main-menu section.iphone14 h2{
 }
 main.main-menu section.iphone14 p{
     color: rgb(91, 89, 89);
-    font-weight: 500;
+    font-weight: 500; /* Metni kalınlaştırır */
 }
 main.main-menu section.watch h2 {
     font-size: 1.8rem; /* Adjust this value to the desired font size */
 }
 
-main.main-menu section.watch h2 img {
-    width: 16px; /* Adjust this value to the desired image width */
-    height: 16px; /* Adjust this value to the desired image height */
-    vertical-align: middle; /* Ensures the text and image align properly */
+main.main-menu section.watch h2 img{
+    width: 30px;
+}
+main.main-menu section.watch p.series{
+    color: crimson;
+    text-transform: uppercase; /* Karakterleri uppercase yapar */
+    letter-spacing: 10px; /* Harflerin arasını açar */
+    font-weight: 400;
+}
+main.main-menu section.iphone14 p.satis-tarihi{
+    color: gray;
 }
