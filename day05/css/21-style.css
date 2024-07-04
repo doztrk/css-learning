@@ -1,0 +1,37 @@
+h1.title{
+    text-align: center;
+    color: red;
+}
+
+p.pEl::first-letter{
+    font-size: 2rem;
+    color: chartreuse;
+}
+p.pEl::first-line{
+    font-size: 2rem;
+    color: blue;
+}
+p.pEl::selection{
+    background-color: palevioletred;
+    color: cornflowerblue;
+}
+ol.list li::marker{
+color: teal;
+font-size: x-large;
+}
+h1.title::before{
+    content: "🐦‍🔥";
+    margin-right: 10px;
+    font-size: 3rem;    
+}
+h1.title::after{
+    content: "🐉";
+    margin-right: 10px;
+    font-size: 3rem;    
+}
+span::after{
+    content: "🇿🇼";
+}
+span::before{
+    content: "🇹🇱";
+}
