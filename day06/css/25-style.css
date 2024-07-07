@@ -1,0 +1,31 @@
+div.container {
+  display: flex;
+  flex-direction: row-reverse;
+  /* justify-content: left; */ 
+}
+
+div.container > div {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+div.container :nth-child(1) {
+  background-color: violet;
+  text-align: center;
+}
+div.container :nth-child(2) {
+  background-color: rgb(130, 238, 157);
+  text-align: center;
+}
+div.container :nth-child(3) {
+  background-color: rgb(130, 144, 238);
+  text-align: center;
+}
+div.container :nth-child(4) {
+  background-color: #e7331f;
+  text-align: center;
+}
+div.container :nth-child(5) {
+  background-color: rgb(223, 223, 52);
+  text-align: center;
+}

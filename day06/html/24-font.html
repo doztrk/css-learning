@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font Awesome Icons</title>
+    <link rel="stylesheet" href="../css/24-style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      ul.liste {
+        list-style-type: none;
+      }
+      ul.liste li::after {
+        font: var(--fa-font-solid);
+        content: "\f4fb";
+        color: red;
+        margin-left: 1rem;
+      }
+
+      ul.liste li::before {
+        font: var(--fa-font-brands);
+        content: "\f26b";
+        color: red;
+        margin-right: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="liste">
+      <li>
+        <i
+          class="fa-solid fa-dumpster-fire fa-beat-fade"
+          style="color: #74c0fc"
+        ></i>
+      </li>
+      <li><i class="fa-solid fa-turkish-lira-sign fa-bounce"></i></li>
+      <li>
+        <i class="fa-brands fa-java fa-shake fa-sm" style="color: #7a4a00"></i>
+      </li>
+      <li><i class="fa-solid fa-pepper-hot" style="color: #ff4013"></i></li>
+    </ul>
+    <button
+      style="
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 3rem;
+        cursor: pointer;
+        color: white;
+        background-color: rgb(75, 210, 75);
+        border: grey solid 5px;
+      "
+    >
+      <i class="fa-brands fa-whatsapp fa-2xl"></i>
+    </button>
+  </body>
+</html>

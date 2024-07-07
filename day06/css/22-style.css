@@ -1,0 +1,42 @@
+h1.title {
+  text-align: center;
+}
+
+h1.title::after {
+  content: "👽";
+  font-size: 3rem;
+  background-color: rgb(0, 183, 255);
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+h1.title::before {
+  content: "👽";
+  font-size: 3rem;
+  background-color: rgb(0, 183, 255);
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+div.divEl p{
+    color: rgb(255, 47, 252);
+    font-size: x-large;
+}
+/* div.divEl> p, divEl classının içindeki bütün child p'leri seçer, torunu p'leri seçmez. */
+div.divEl> p{
+    color: green;
+    font-size: x-large;
+
+}
+/* + işareti belirtilen elementten hemen sonra gelen ilk elemeti seçer */
+div.divEl+a{
+    color: goldenrod;
+    background-color: rgb(130, 134, 238);
+}
+/* ~(tilde) işareti belirtilen elementten hemen sonra gelen tüm elemetleri seçer */
+div.divEl~a{
+    color: blue;
+    background-color: yellow;
+}
