@@ -1,32 +1,42 @@
 div.container {
+  height: 100vh;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center; /* default değeri stretch */
-  height: 50vh;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 2rem;
+  flex-wrap: wrap-reverse; /* Sayfaya sığmayanları aşağıya atıyor */
 }
 
 div.container > div {
   width: 50px;
-/*   height: 50px; */
+  /*   height: 50px; */
 }
 div.container :nth-child(1) {
   background-color: violet;
   text-align: center;
+  flex: 1 0 0;
 }
 div.container :nth-child(2) {
   background-color: rgb(130, 238, 157);
   text-align: center;
+  flex: 1 0 0;
 }
 div.container :nth-child(3) {
   background-color: rgb(130, 144, 238);
   text-align: center;
+  /*   flex: 2;
+ */
+ flex: 2 0 0;
 }
 div.container :nth-child(4) {
   background-color: #e7331f;
   text-align: center;
+  flex: 1 2 0;
+  margin-right: 0;
 }
 div.container :nth-child(5) {
   background-color: rgb(223, 223, 52);
   text-align: center;
+  flex: 1 1 0;
 }
