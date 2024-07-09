@@ -11,6 +11,9 @@ nav.menu ul {
   flex-wrap: wrap;
   text-align: center;
 }
+nav.menu ul li{
+    flex-basis: 150px;
+}
 
 nav.menu ul li a {
   font-size: 1.8rem;
@@ -19,6 +22,9 @@ nav.menu ul li a {
   color: aliceblue;
   border-radius: 10px;
   padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 nav.menu ul li a:hover{
     background-color: rgb(38, 255, 0);
