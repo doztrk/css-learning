@@ -1,0 +1,31 @@
+div.btn-group {
+  margin: 5rem;
+  background-color: rgb(93, 89, 89);
+  display: inline-block;
+  padding: 10px 9px;
+  border-radius: 40px;
+  position: relative;
+}
+
+div.btn-group input {
+  display: inline-block;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0px 20px;
+  color: whitesmoke;
+}
+div.btn-group button {
+  background-image: linear-gradient(to right, green, yellow);
+  display: inline-block;
+  border: none;
+  padding: 12px 15px;
+  border-radius: 20px;
+  position: absolute;
+  top: 0.5px;
+  right: .5px;
+}
+div.btn-group button:hover {
+  background-image: linear-gradient(to right, yellow, green);
+  cursor: pointer;
+}

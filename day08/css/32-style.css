@@ -8,9 +8,9 @@ body {
 div.banner-1 {
   height: 100vh;
   background-image: url("../../assets/img/bg.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-size: 350px;
-  background-position: center;
+  background-position: left top;
 }
 div.banner-2 {
     height: 50vh;
