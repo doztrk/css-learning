@@ -1,0 +1,35 @@
+div.title{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 800;
+    background-color: aqua;
+    padding: 10px;
+    transition: background-color 1s,color 1s;
+}
+div.title:hover{
+    background-color: violet;
+    color: aliceblue;
+    cursor: pointer;
+}
+button.btn{
+    margin: 10rem;
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: violet;
+    color: rgb(103, 255, 80);
+    transition: all ease-in-out 0.4s;
+}
+button.btn:hover{
+    background-color: rgb(80, 80, 255);
+    font-weight: 100;
+    text-transform: lowercase;
+    transform: rotate(360deg) scale(1.5) translateX(180%);
+}

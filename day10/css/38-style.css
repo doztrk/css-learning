@@ -1,0 +1,15 @@
+h1.title {
+  text-align: center;
+  color: red;
+  text-decoration: underline;
+}
+div.divEl {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+  transform: translate(50%, 50%);
+}
+img {
+  transform: translateX(100px) rotate(250deg) scaleX(1.3);
+}
+
